@@ -4,10 +4,10 @@
 terraform {
 
   cloud {
-    organization = "organization-name"
+    organization = "HCP_Org1"
 
     workspaces {
-      name = "learn-terraform"
+      name = "acme-demo-hcp"
     }
   }
 
